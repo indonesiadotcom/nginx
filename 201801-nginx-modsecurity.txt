@@ -1,0 +1,15 @@
+
+#ref: https://www.modsecurity.org/download.html
+
+wget https://www.modsecurity.org/tarball/2.9.2/modsecurity-2.9.2.tar.gz
+tar xzf modsecurity-2.9.2.tar.gz
+cd modsecurity-2.9.2
+
+#ref: https://www.trustwave.com/Resources/SpiderLabs-Blog/Announcing-the-availability-of-ModSecurity-extension-for-Nginx/
+
+./configure --enable-standalone-module
+make
+
+#ref: https://www.modpagespeed.com/doc/build_ngx_pagespeed_from_source
+
+
